@@ -24,12 +24,12 @@ import numpy as np
 import pandas as pd
 from shutil import copyfile
 
-BATCH_SIZE = 40
-EPOCHS = 5
+BATCH_SIZE = 3
+EPOCHS = 10
 IMG_HEIGHT = 512
 IMG_WIDTH = 512
 TRAINING_SIZE = 120
-VALIDATION_SIZE = 40
+VALIDATION_SIZE = 30
 TRAINING_DIR = '../training'
 VALIDATION_DIR = '../validation'
 
@@ -142,7 +142,7 @@ def build_model():
         Conv2D(64, 3, padding='same', activation='relu'),
         MaxPooling2D(),
         Flatten(),
-        Dense(512, activation='relu'),
+        Dense(128, activation='relu'),
         Dense(1, activation='sigmoid')
     ])
 
@@ -167,7 +167,9 @@ def train_model(model, train_data_gen, val_data_gen, total_train, total_val):
 
 if __name__ == "__main__":
     info = pd.read_csv('../info/info.csv')
-
+    config = tf.compat.v1.ConfigProto()
+    config.gpu_options.allow_growth = True
+    sess = tf.compat.v1.Session(config=config)
     print('GPU & CPU devices:')
     print(device_lib.list_local_devices())
 
