@@ -8,6 +8,7 @@ from shutil import copyfile, rmtree
 download_image_dir = '../Images_png'
 selected_image_dir = '../selected_images'
 processed_image_dir = '../processed_images'
+smoothed_image_dir = '../smoothed_images'
 
 
 def clear_image_dir(folder):
@@ -51,6 +52,7 @@ def convert_images():
     for filename in os.listdir(selected_image_dir):
         selected_file_path = os.path.join(selected_image_dir, filename)
         processed_file_path = os.path.join(processed_image_dir, filename)
+        smoothed_file_path = os.path.join(smoothed_image_dir, filename)
 
         # images read in as 16 bit
         img = cv2.imread(selected_file_path, cv2.IMREAD_UNCHANGED)
@@ -68,6 +70,10 @@ def convert_images():
                 img[x, y] = min(255, max(0, (img[x, y] - window_min) / (window_max - window_min) * 255))
 
         cv2.imwrite(processed_file_path, img)
+
+        smoothed_img = cv2.GaussianBlur(img, (5, 5), 0)
+
+        cv2.imwrite(smoothed_file_path, smoothed_img)
 
 
 if __name__ == "__main__":

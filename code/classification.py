@@ -55,6 +55,7 @@ def build_sets(info):
     clear_directory_files(validation_non_abdominal_dir)
 
     processed_image_dir = '../processed_images'
+    smoothed_image_dir = '../smoothed_images'
 
     abdominal_images = []
     non_abdominal_images = []
@@ -74,21 +75,21 @@ def build_sets(info):
     random_non_abdominal_images = random.sample(non_abdominal_images, TRAINING_SIZE + VALIDATION_SIZE)
 
     for index, image in enumerate(random_abdominal_images):
-        src = os.path.join(processed_image_dir, image)
-
         if index < TRAINING_SIZE:
+            src = os.path.join(processed_image_dir, image)
             dest = os.path.join(training_abdominal_dir, image)
         else:
+            src = os.path.join(smoothed_image_dir, image)
             dest = os.path.join(validation_abdominal_dir, image)
 
         copyfile(src, dest)
 
     for index, image in enumerate(random_non_abdominal_images):
-        src = os.path.join(processed_image_dir, image)
-
         if index < TRAINING_SIZE:
+            src = os.path.join(processed_image_dir, image)
             dest = os.path.join(training_non_abdominal_dir, image)
         else:
+            src = os.path.join(smoothed_image_dir, image)
             dest = os.path.join(validation_non_abdominal_dir, image)
 
         copyfile(src, dest)
