@@ -26,7 +26,7 @@ import pandas as pd
 from shutil import copyfile
 
 BATCH_SIZE = 3
-EPOCHS = 10
+EPOCHS = 5
 IMG_HEIGHT = 512
 IMG_WIDTH = 512
 TRAINING_SIZE = 120
