@@ -18,6 +18,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.python.client import device_lib
 
 import os
+import time
 import cv2
 import random
 import numpy as np
@@ -167,6 +168,8 @@ def train_model(model, train_data_gen, val_data_gen, total_train, total_val):
 
 
 if __name__ == "__main__":
+    start_time = time.time()
+
     info = pd.read_csv('../info/info.csv')
     config = tf.compat.v1.ConfigProto()
     config.gpu_options.allow_growth = True
@@ -180,3 +183,6 @@ if __name__ == "__main__":
     train_model(model, train_data_gen, val_data_gen, total_train, total_val)
 
     print('Model Accuracy:', model.evaluate(val_data_gen)[1])
+
+    end_time = time.time()
+    print("Execution Time: %s seconds" % (end_time - start_time))

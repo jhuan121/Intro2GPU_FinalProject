@@ -1,4 +1,5 @@
 import os
+import time
 import cv2
 import numpy as np
 import pandas as pd
@@ -77,5 +78,10 @@ def convert_images():
 
 
 if __name__ == "__main__":
+    start_time = time.time()
+
     copy_images()
     convert_images()
+
+    end_time = time.time()
+    print("Execution Time: %s seconds" % (end_time - start_time))
