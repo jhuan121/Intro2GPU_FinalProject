@@ -1,0 +1,196 @@
+/usr/local/lib/python3.7/site-packages/pandas/compat/__init__.py:85: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+2019-12-09 16:22:25.727514: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-09 16:22:25.734951: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3398055000 Hz
+2019-12-09 16:22:25.735987: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5a0e9f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2019-12-09 16:22:25.736043: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2019-12-09 16:22:25.738419: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2019-12-09 16:22:26.089607: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.090175: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5a10ef0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2019-12-09 16:22:26.090258: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GT 1030, Compute Capability 6.1
+2019-12-09 16:22:26.090696: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.091270: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce GT 1030 major: 6 minor: 1 memoryClockRate(GHz): 1.468
+pciBusID: 0000:00:05.0
+2019-12-09 16:22:26.091912: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2019-12-09 16:22:26.094778: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2019-12-09 16:22:26.097037: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2019-12-09 16:22:26.097764: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2019-12-09 16:22:26.101104: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2019-12-09 16:22:26.103746: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2019-12-09 16:22:26.111725: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2019-12-09 16:22:26.111998: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.112678: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.113199: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2019-12-09 16:22:26.113360: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2019-12-09 16:22:26.115112: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-12-09 16:22:26.115188: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2019-12-09 16:22:26.115228: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+2019-12-09 16:22:26.115516: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.116156: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.116689: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1736 MB memory) -> physical GPU (device: 0, name: GeForce GT 1030, pci bus id: 0000:00:05.0, compute capability: 6.1)
+GPU & CPU devices:
+2019-12-09 16:22:26.120572: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.121096: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce GT 1030 major: 6 minor: 1 memoryClockRate(GHz): 1.468
+pciBusID: 0000:00:05.0
+2019-12-09 16:22:26.121197: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2019-12-09 16:22:26.121263: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2019-12-09 16:22:26.121329: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2019-12-09 16:22:26.121394: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2019-12-09 16:22:26.121457: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2019-12-09 16:22:26.121521: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2019-12-09 16:22:26.121586: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2019-12-09 16:22:26.121735: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.122311: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.122921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2019-12-09 16:22:26.123000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-12-09 16:22:26.123043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2019-12-09 16:22:26.123084: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+2019-12-09 16:22:26.123280: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.123887: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:26.124389: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/device:GPU:0 with 1736 MB memory) -> physical GPU (device: 0, name: GeForce GT 1030, pci bus id: 0000:00:05.0, compute capability: 6.1)
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 12411934725628697402
+, name: "/device:XLA_CPU:0"
+device_type: "XLA_CPU"
+memory_limit: 17179869184
+locality {
+}
+incarnation: 2735967320294051394
+physical_device_desc: "device: XLA_CPU device"
+, name: "/device:XLA_GPU:0"
+device_type: "XLA_GPU"
+memory_limit: 17179869184
+locality {
+}
+incarnation: 2068689229645286369
+physical_device_desc: "device: XLA_GPU device"
+, name: "/device:GPU:0"
+device_type: "GPU"
+memory_limit: 1821179904
+locality {
+  bus_id: 1
+  links {
+  }
+}
+incarnation: 16758182215331610952
+physical_device_desc: "device: 0, name: GeForce GT 1030, pci bus id: 0000:00:05.0, compute capability: 6.1"
+]
+total training abdominal images: 120
+total training non_abdominal images: 120
+total validation abdominal images: 30
+total validation non_abdominal images: 30
+--
+Total training images: 240
+Total validation images: 60
+Found 240 images belonging to 2 classes.
+Found 60 images belonging to 2 classes.
+WARNING:tensorflow:From /usr/local/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /usr/local/lib/python3.7/site-packages/tensorflow_core/python/ops/nn_impl.py:183: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d (Conv2D)              (None, 512, 512, 16)      448
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 256, 256, 16)      0
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 256, 256, 32)      4640
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 128, 128, 32)      0
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 128, 128, 64)      18496
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 64, 64, 64)        0
+_________________________________________________________________
+flatten (Flatten)            (None, 262144)            0
+_________________________________________________________________
+dense (Dense)                (None, 128)               33554560
+_________________________________________________________________
+dense_1 (Dense)              (None, 1)                 129
+=================================================================
+Total params: 33,578,273
+Trainable params: 33,578,273
+Non-trainable params: 0
+_________________________________________________________________
+2019-12-09 16:22:28.272813: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:28.273128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce GT 1030 major: 6 minor: 1 memoryClockRate(GHz): 1.468
+pciBusID: 0000:00:05.0
+2019-12-09 16:22:28.273193: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2019-12-09 16:22:28.273229: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2019-12-09 16:22:28.273287: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2019-12-09 16:22:28.273341: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2019-12-09 16:22:28.273386: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2019-12-09 16:22:28.273418: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2019-12-09 16:22:28.273453: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2019-12-09 16:22:28.273546: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:28.273850: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:28.274083: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2019-12-09 16:22:28.274710: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:28.274995: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce GT 1030 major: 6 minor: 1 memoryClockRate(GHz): 1.468
+pciBusID: 0000:00:05.0
+2019-12-09 16:22:28.275049: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2019-12-09 16:22:28.275088: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2019-12-09 16:22:28.275124: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2019-12-09 16:22:28.275158: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2019-12-09 16:22:28.275192: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2019-12-09 16:22:28.275227: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2019-12-09 16:22:28.275260: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2019-12-09 16:22:28.275336: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:28.275656: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:28.275890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2019-12-09 16:22:28.275936: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-12-09 16:22:28.275960: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2019-12-09 16:22:28.275980: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+2019-12-09 16:22:28.276087: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:28.276373: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-12-09 16:22:28.276616: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1736 MB memory) -> physical GPU (device: 0, name: GeForce GT 1030, pci bus id: 0000:00:05.0, compute capability: 6.1)
+Epoch 1/10
+2019-12-09 16:22:30.654875: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2019-12-09 16:22:30.822943: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2019-12-09 16:22:32.020945: W tensorflow/core/common_runtime/bfc_allocator.cc:305] Garbage collection: deallocate free memory regions (i.e., allocations) so that we can re-allocate a larger region to avoid OOM due to memory fragmentation. If you see this message frequently, you are running near the threshold of the available device memory and re-allocation may incur great performance overhead. You may try smaller batch sizes to observe the performance impact. Set TF_ENABLE_GPU_GARBAGE_COLLECTION=false if you'd like to disable this feature.
+2019-12-09 16:22:32.061352: I tensorflow/stream_executor/cuda/cuda_driver.cc:831] failed to allocate 1.19G (1283260416 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-12-09 16:22:32.323466: W tensorflow/core/common_runtime/bfc_allocator.cc:239] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.04GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-12-09 16:22:32.352617: W tensorflow/core/common_runtime/bfc_allocator.cc:239] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.12GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+79/80 [============================>.] - ETA: 0s - loss: 0.7593 - binary_accuracy: 0.6245 - precision: 0.6400 - recall: 0.5470 - auc: 0.6500 - mean_absolute_error: 0.4474 - root_mean_squared_error: 0.4891 - true_positives: 64.0000 - true_negatives: 84.0000 - false_positives: 36.0000 - false_positives_1: 36.0000Epoch 1/10
+80/80 [==============================] - 13s 168ms/step - loss: 0.7550 - binary_accuracy: 0.6292 - precision: 0.6505 - recall: 0.5583 - auc: 0.6562 - mean_absolute_error: 0.4460 - root_mean_squared_error: 0.4877 - true_positives: 67.0000 - true_negatives: 84.0000 - false_positives: 36.0000 - false_positives_1: 36.0000 - val_loss: 0.6498 - val_binary_accuracy: 0.4833 - val_precision: 0.4878 - val_recall: 0.6667 - val_auc: 0.6406 - val_mean_absolute_error: 0.4392 - val_root_mean_squared_error: 0.4899 - val_true_positives: 20.0000 - val_true_negatives: 9.0000 - val_false_positives: 21.0000 - val_false_positives_1: 21.0000
+Epoch 2/10
+79/80 [============================>.] - ETA: 0s - loss: 0.4611 - binary_accuracy: 0.7848 - precision: 0.8113 - recall: 0.7350 - auc: 0.8555 - mean_absolute_error: 0.3028 - root_mean_squared_error: 0.3877 - true_positives: 86.0000 - true_negatives: 100.0000 - false_positives: 20.0000 - false_positives_1: 20.0000Epoch 1/10
+80/80 [==============================] - 10s 124ms/step - loss: 0.4592 - binary_accuracy: 0.7875 - precision: 0.8165 - recall: 0.7417 - auc: 0.8581 - mean_absolute_error: 0.3021 - root_mean_squared_error: 0.3867 - true_positives: 89.0000 - true_negatives: 100.0000 - false_positives: 20.0000 - false_positives_1: 20.0000 - val_loss: 0.5477 - val_binary_accuracy: 0.7333 - val_precision: 0.7917 - val_recall: 0.6333 - val_auc: 0.7906 - val_mean_absolute_error: 0.3932 - val_root_mean_squared_error: 0.4275 - val_true_positives: 19.0000 - val_true_negatives: 25.0000 - val_false_positives: 5.0000 - val_false_positives_1: 5.0000
+Epoch 3/10
+79/80 [============================>.] - ETA: 0s - loss: 0.3180 - binary_accuracy: 0.8692 - precision: 0.8991 - recall: 0.8305 - auc: 0.9364 - mean_absolute_error: 0.1916 - root_mean_squared_error: 0.3144 - true_positives: 98.0000 - true_negatives: 108.0000 - false_positives: 11.0000 - false_positives_1: 11.0000Epoch 1/10
+80/80 [==============================] - 10s 125ms/step - loss: 0.3178 - binary_accuracy: 0.8667 - precision: 0.9000 - recall: 0.8250 - auc: 0.9369 - mean_absolute_error: 0.1919 - root_mean_squared_error: 0.3146 - true_positives: 99.0000 - true_negatives: 109.0000 - false_positives: 11.0000 - false_positives_1: 11.0000 - val_loss: 0.5657 - val_binary_accuracy: 0.6667 - val_precision: 0.6562 - val_recall: 0.7000 - val_auc: 0.7494 - val_mean_absolute_error: 0.3688 - val_root_mean_squared_error: 0.4472 - val_true_positives: 21.0000 - val_true_negatives: 19.0000 - val_false_positives: 11.0000 - val_false_positives_1: 11.0000
+Epoch 4/10
+79/80 [============================>.] - ETA: 0s - loss: 0.1034 - binary_accuracy: 0.9578 - precision: 0.9500 - recall: 0.9661 - auc: 0.9929 - mean_absolute_error: 0.0692 - root_mean_squared_error: 0.1653 - true_positives: 114.0000 - true_negatives: 113.0000 - false_positives: 6.0000 - false_positives_1: 6.0000Epoch 1/10
+80/80 [==============================] - 10s 125ms/step - loss: 0.1023 - binary_accuracy: 0.9583 - precision: 0.9508 - recall: 0.9667 - auc: 0.9931 - mean_absolute_error: 0.0685 - root_mean_squared_error: 0.1642 - true_positives: 116.0000 - true_negatives: 114.0000 - false_positives: 6.0000 - false_positives_1: 6.0000 - val_loss: 0.7193 - val_binary_accuracy: 0.6833 - val_precision: 0.6667 - val_recall: 0.7333 - val_auc: 0.7633 - val_mean_absolute_error: 0.3187 - val_root_mean_squared_error: 0.4571 - val_true_positives: 22.0000 - val_true_negatives: 19.0000 - val_false_positives: 11.0000 - val_false_positives_1: 11.0000
+Epoch 5/10
+79/80 [============================>.] - ETA: 0s - loss: 0.0520 - binary_accuracy: 0.9873 - precision: 0.9832 - recall: 0.9915 - auc: 0.9943 - mean_absolute_error: 0.0248 - root_mean_squared_error: 0.1061 - true_positives: 117.0000 - true_negatives: 117.0000 - false_positives: 2.0000 - false_positives_1: 2.0000Epoch 1/10
+80/80 [==============================] - 10s 123ms/step - loss: 0.0515 - binary_accuracy: 0.9875 - precision: 0.9835 - recall: 0.9917 - auc: 0.9943 - mean_absolute_error: 0.0247 - root_mean_squared_error: 0.1054 - true_positives: 119.0000 - true_negatives: 118.0000 - false_positives: 2.0000 - false_positives_1: 2.0000 - val_loss: 0.6897 - val_binary_accuracy: 0.7167 - val_precision: 0.7097 - val_recall: 0.7333 - val_auc: 0.7639 - val_mean_absolute_error: 0.3406 - val_root_mean_squared_error: 0.4631 - val_true_positives: 22.0000 - val_true_negatives: 21.0000 - val_false_positives: 9.0000 - val_false_positives_1: 9.0000
+Epoch 6/10
+79/80 [============================>.] - ETA: 0s - loss: 0.0060 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 0.0058 - root_mean_squared_error: 0.0212 - true_positives: 119.0000 - true_negatives: 118.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00Epoch 1/10
+80/80 [==============================] - 10s 124ms/step - loss: 0.0059 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 0.0057 - root_mean_squared_error: 0.0211 - true_positives: 120.0000 - true_negatives: 120.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00 - val_loss: 1.4707 - val_binary_accuracy: 0.5000 - val_precision: 0.5000 - val_recall: 0.8000 - val_auc: 0.7467 - val_mean_absolute_error: 0.4470 - val_root_mean_squared_error: 0.6170 - val_true_positives: 24.0000 - val_true_negatives: 6.0000 - val_false_positives: 24.0000 - val_false_positives_1: 24.0000
+Epoch 7/10
+79/80 [============================>.] - ETA: 0s - loss: 0.0019 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 0.0018 - root_mean_squared_error: 0.0089 - true_positives: 117.0000 - true_negatives: 120.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00Epoch 1/10
+80/80 [==============================] - 10s 125ms/step - loss: 0.0019 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 0.0018 - root_mean_squared_error: 0.0089 - true_positives: 120.0000 - true_negatives: 120.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00 - val_loss: 1.0052 - val_binary_accuracy: 0.7333 - val_precision: 0.7188 - val_recall: 0.7667 - val_auc: 0.7650 - val_mean_absolute_error: 0.3025 - val_root_mean_squared_error: 0.4804 - val_true_positives: 23.0000 - val_true_negatives: 21.0000 - val_false_positives: 9.0000 - val_false_positives_1: 9.0000
+Epoch 8/10
+79/80 [============================>.] - ETA: 0s - loss: 3.6796e-04 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 3.6755e-04 - root_mean_squared_error: 9.0022e-04 - true_positives: 118.0000 - true_negatives: 119.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00Epoch 1/10
+80/80 [==============================] - 10s 125ms/step - loss: 3.6585e-04 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 3.6545e-04 - root_mean_squared_error: 8.9537e-04 - true_positives: 120.0000 - true_negatives: 120.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00 - val_loss: 1.0587 - val_binary_accuracy: 0.7333 - val_precision: 0.7188 - val_recall: 0.7667 - val_auc: 0.7678 - val_mean_absolute_error: 0.2944 - val_root_mean_squared_error: 0.4789 - val_true_positives: 23.0000 - val_true_negatives: 21.0000 - val_false_positives: 9.0000 - val_false_positives_1: 9.0000
+Epoch 9/10
+79/80 [============================>.] - ETA: 0s - loss: 2.3441e-04 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 2.3425e-04 - root_mean_squared_error: 5.7002e-04 - true_positives: 118.0000 - true_negatives: 119.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00Epoch 1/10
+80/80 [==============================] - 10s 124ms/step - loss: 2.3433e-04 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 2.3417e-04 - root_mean_squared_error: 5.6803e-04 - true_positives: 120.0000 - true_negatives: 120.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00 - val_loss: 1.1003 - val_binary_accuracy: 0.7333 - val_precision: 0.7188 - val_recall: 0.7667 - val_auc: 0.7661 - val_mean_absolute_error: 0.2918 - val_root_mean_squared_error: 0.4802 - val_true_positives: 23.0000 - val_true_negatives: 21.0000 - val_false_positives: 9.0000 - val_false_positives_1: 9.0000
+Epoch 10/10
+79/80 [============================>.] - ETA: 0s - loss: 1.6482e-04 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 1.6474e-04 - root_mean_squared_error: 4.0284e-04 - true_positives: 117.0000 - true_negatives: 120.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00Epoch 1/10
+80/80 [==============================] - 10s 125ms/step - loss: 1.6733e-04 - binary_accuracy: 1.0000 - precision: 1.0000 - recall: 1.0000 - auc: 1.0000 - mean_absolute_error: 1.6725e-04 - root_mean_squared_error: 4.0590e-04 - true_positives: 120.0000 - true_negatives: 120.0000 - false_positives: 0.0000e+00 - false_positives_1: 0.0000e+00 - val_loss: 1.1363 - val_binary_accuracy: 0.7500 - val_precision: 0.7419 - val_recall: 0.7667 - val_auc: 0.7683 - val_mean_absolute_error: 0.2879 - val_root_mean_squared_error: 0.4796 - val_true_positives: 23.0000 - val_true_negatives: 22.0000 - val_false_positives: 8.0000 - val_false_positives_1: 8.0000
+20/20 [==============================] - 1s 35ms/step - loss: 1.1363 - binary_accuracy: 0.7500 - precision: 0.7419 - recall: 0.7667 - auc: 0.7683 - mean_absolute_error: 0.2879 - root_mean_squared_error: 0.4796 - true_positives: 23.0000 - true_negatives: 22.0000 - false_positives: 8.0000 - false_positives_1: 8.0000Model Accuracy: 0.75
+Execution Time: 107.59982252120972 seconds

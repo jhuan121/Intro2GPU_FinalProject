@@ -10,3 +10,6 @@ Dataset: NIH DeepLesion CT Image Dataset
 https://nihcc.app.box.com/v/DeepLesion/file/307763142914
 https://nihcc.app.box.com/v/DeepLesion/file/307764249542
 https://nihcc.app.box.com/v/DeepLesion/file/307764129006
+
+Trial Run Screenshots and Standard Out:
+gpu_trial_3/*
