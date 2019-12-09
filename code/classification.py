@@ -150,7 +150,9 @@ def build_model():
 
     model.compile(optimizer='adam',
                   loss='binary_crossentropy',
-                  metrics=['accuracy'])
+                  metrics=[tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Precision(), tf.keras.metrics.Recall(),
+                           tf.keras.metrics.AUC(), tf.keras.metrics.MeanAbsoluteError(), tf.keras.metrics.RootMeanSquaredError(),
+                           tf.keras.metrics.TruePositives(), tf.keras.metrics.TrueNegatives(), tf.keras.metrics.FalsePositives(), tf.keras.metrics.FalsePositives()])
 
     model.summary()
 
