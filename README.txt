@@ -13,3 +13,16 @@ https://nihcc.app.box.com/v/DeepLesion/file/307764129006
 
 Trial Run Screenshots and Standard Out:
 gpu_trial_3/*
+
+Required Python Libraries:
+tensorflow-gpu
+pandas
+scipy
+opencv-python
+pillow
+numpy
+
+Python Version: 3.7
+
+To preprocess images: python3.7 code/preprocessing.py
+To build a classification model: python3.7 code/classifcation.py
